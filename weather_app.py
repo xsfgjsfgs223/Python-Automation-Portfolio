@@ -39,7 +39,7 @@ if check_btn:
                 # --- 展示数据 ---
                 
                 # 1. 显示天气图标 (从官方获取图片)
-                icon_url = f"http://openweathermap.org/img/wn/{icon_code}@4x.png"
+                icon_url = f"https://openweathermap.org/img/wn/{icon_code}@4x.png"
                 st.image(icon_url, width=100)
                 
                 # 2. 显示大数字
